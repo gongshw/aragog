@@ -1,0 +1,16 @@
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/rpc/ParserBuilder.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/configuration/AragogConstant.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/model/PageDetail.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/service/MessageQueueService.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/model/DetailPageUrl.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/model/ListPageParseResult.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/configuration/RpcClientConfiguration.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/service/HttpClientService.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/utils/ExceptionUtils.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/rpc/RuleSelector.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/configuration/MessageQueueConnectionConfiguration.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/model/Rule.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/model/ScriptType.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/configuration/DatabaseConfiguration.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/rpc/PageParser.java
+/Users/gongshw/aragog/aragog-common/src/main/java/com/gongshw/aragog/common/rpc/AbstractPageParser.java

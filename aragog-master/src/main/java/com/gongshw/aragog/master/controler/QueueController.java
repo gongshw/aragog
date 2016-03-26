@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Date;
+
 /**
  * @author gongshiwei
  */
@@ -25,7 +27,7 @@ public class QueueController {
 
 	@RequestMapping(value = "/listPageUrl", method = RequestMethod.POST)
 	public void addListPageUrl(@RequestBody String url) {
-		ListPageUrl listPageUrl = new ListPageUrl(url);
+		ListPageUrl listPageUrl = new ListPageUrl(url, new Date());
 		messageQueueService.sendListPageUrl(listPageUrl);
 	}
 }

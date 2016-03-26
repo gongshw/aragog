@@ -3,8 +3,8 @@
  */
 package com.gongshw.aragog.master.parser;
 
-import com.gongshw.aragog.common.model.ListPageParseResult;
 import com.gongshw.aragog.common.model.DetailPageUrl;
+import com.gongshw.aragog.common.model.ListPageParseResult;
 import com.gongshw.aragog.common.model.ListPageUrl;
 import com.gongshw.aragog.common.model.PageDetail;
 import com.gongshw.aragog.common.rpc.PageParser;

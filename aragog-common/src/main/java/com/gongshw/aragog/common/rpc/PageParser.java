@@ -12,9 +12,9 @@ import com.gongshw.aragog.common.model.PageDetail;
  * @author gongshiwei
  */
 public interface PageParser {
-    void init() throws Exception;
+	void init() throws Exception;
 
-    ListPageParseResult parseListPage(ListPageUrl url) throws Exception;
+	ListPageParseResult parseListPage(ListPageUrl url) throws Exception;
 
-    PageDetail parseDetailPage(DetailPageUrl url) throws Exception;
+	PageDetail parseDetailPage(DetailPageUrl url) throws Exception;
 }

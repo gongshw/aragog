@@ -19,6 +19,7 @@ import org.springframework.util.concurrent.ListenableFuture;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Date;
 import java.util.concurrent.ExecutionException;
 
 /**
@@ -40,6 +41,7 @@ public class BrokenParser implements PageParser {
 
 	@Override
 	public ListPageParseResult parseListPage(ListPageUrl url) {
+		Date now = new Date();
 		ListenableFuture<String> future = httpClient.get(url.getUrl());
 		String response = null;
 		try {
@@ -52,8 +54,8 @@ public class BrokenParser implements PageParser {
 		logger.debug(response);
 		ListPageParseResult result = new ListPageParseResult();
 		result.setListPageUrls(Arrays.asList(
-				new ListPageUrl(url.getUrl()),
-				new ListPageUrl(url.getUrl())
+				new ListPageUrl(url.getUrl(), now),
+				new ListPageUrl(url.getUrl(), now)
 		));
 		result.setDetailPageUrls(Collections.emptyList());
 		return result;
