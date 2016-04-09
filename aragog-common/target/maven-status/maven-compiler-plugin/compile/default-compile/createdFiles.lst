@@ -1,0 +1,10 @@
+com/gongshw/aragog/common/configuration/MessageQueueConnectionConfiguration.class
+com/gongshw/aragog/common/service/MessageQueueService.class
+com/gongshw/aragog/common/rpc/PageParser.class
+com/gongshw/aragog/common/rpc/RuleSelector.class
+com/gongshw/aragog/common/configuration/RpcClientConfiguration.class
+com/gongshw/aragog/common/service/HttpClientService.class
+com/gongshw/aragog/common/utils/ExceptionUtils.class
+com/gongshw/aragog/common/rpc/ParserBuilder.class
+com/gongshw/aragog/common/rpc/AbstractPageParser.class
+com/gongshw/aragog/common/configuration/DatabaseConfiguration.class
